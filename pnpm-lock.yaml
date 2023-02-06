@@ -4,8 +4,7 @@ specifiers:
   '@playwright/test': ^1.30.0
   '@stablelib/base64': ^1.0.1
   '@supabase/supabase-js': ^2.0.0
-  '@sveltejs/adapter-netlify': ^1.0.5
-  '@sveltejs/adapter-static': ^1.0.5
+  '@sveltejs/adapter-static': ^1.0.6
   '@sveltejs/kit': ^1.3.3
   '@tailwindcss/typography': ^0.5.2
   '@typescript-eslint/eslint-plugin': ^5.27.0
@@ -49,8 +48,7 @@ dependencies:
 
 devDependencies:
   '@playwright/test': 1.30.0
-  '@sveltejs/adapter-netlify': 1.0.5_@sveltejs+kit@1.3.3
-  '@sveltejs/adapter-static': 1.0.5_@sveltejs+kit@1.3.3
+  '@sveltejs/adapter-static': 1.0.6_@sveltejs+kit@1.3.3
   '@sveltejs/kit': 1.3.3_svelte@3.48.0+vite@4.0.4
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.4
   '@typescript-eslint/eslint-plugin': 5.30.3_xuuykav7urhdozug7htlfgar3u
@@ -797,10 +795,6 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iarna/toml/2.2.5:
-    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
-    dev: true
-
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
     engines: {node: '>=6.0.0'}
@@ -953,19 +947,8 @@ packages:
       - supports-color
     dev: false
 
-  /@sveltejs/adapter-netlify/1.0.5_@sveltejs+kit@1.3.3:
-    resolution: {integrity: sha512-CQpSf2y29+DdaSELLWb4P5ewWSPUFRfJn2DwtiDZ+YOiIVhUk0caudFZoscH1GAP/sFrJekIMtawP542BjWA1g==}
-    peerDependencies:
-      '@sveltejs/kit': ^1.0.0
-    dependencies:
-      '@iarna/toml': 2.2.5
-      '@sveltejs/kit': 1.3.3_svelte@3.48.0+vite@4.0.4
-      esbuild: 0.16.17
-      set-cookie-parser: 2.5.1
-    dev: true
-
-  /@sveltejs/adapter-static/1.0.5_@sveltejs+kit@1.3.3:
-    resolution: {integrity: sha512-W5jbgvy9sbYEHs27NQOSFEun+zQwdcL4kpk5qc2kSHl8cKsP5wfXuWDTDRmD1Co40aFcesi5Az5ZzdnPI8KCVg==}
+  /@sveltejs/adapter-static/1.0.6_@sveltejs+kit@1.3.3:
+    resolution: {integrity: sha512-gTus2jW6bEQAZoT1MdmPHWZZmcb6dfLWc0r6dFHnbzSDZ68kifqQ1E+dZDOMF7aXeRV91sgnPuAn2MtpinVdlA==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
