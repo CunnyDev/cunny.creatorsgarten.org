@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Ring | Creatorsgarten</title>
+  <title>Ring | Cunnygarten</title>
 </svelte:head>
 
 <div class="cg-container min-h-[80vh]">
@@ -11,7 +11,7 @@
     <h1 class="mt-16">Webring</h1>
     <h2>
       As a collective with many different initiatives, each with their own uniqueness, there has
-      been separate websites dedicated to each. The Creatorsgarten Webring serves to bring all our
+      been separate websites dedicated to each. The Cunnygarten Webring serves to bring all our
       initiatives together under the same umbrella. It also serves to connect our members’ personal
       websites.
     </h2>
@@ -25,7 +25,7 @@
       {/each}
     </ul>
 
-    <h2>Creators Ring</h2>
+    <h2>ภัยสังคม Ring</h2>
     <ul class="ring-list">
       {#each creators as creator}
         <li><a href={creator.link}>{creator.name}</a></li>
@@ -36,11 +36,11 @@
 
 <style>
   .ring-list a {
-    @apply px-2 py-[0.3rem] rounded-md bg-sky-50 hover:bg-sky-100;
+    @apply rounded-md bg-sky-50 px-2 py-[0.3rem] hover:bg-sky-100;
   }
 
   h1 {
-    @apply text-3xl lg:text-4xl leading-tight;
+    @apply text-3xl leading-tight lg:text-4xl;
     font-family: 'Playfair Display', 'Inter', 'Anuphan', system-ui, -apple-system,
       BlinkMacSystemFont, 'Segoe UI', Roboto;
   }

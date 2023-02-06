@@ -7,19 +7,19 @@
   import Loading from '../Components/Loading.svelte';
 
   onMount(() => {
-    if (
-      location.hostname === 'creatorsgarten.com' ||
-      location.hostname === 'www.creatorsgarten.com'
-    ) {
-      location.replace(location.href.replace('.com', '.org'));
-    }
+    // if (
+    //   location.hostname === 'creatorsgarten.com' ||
+    //   location.hostname === 'www.creatorsgarten.com'
+    // ) {
+    //   location.replace(location.href.replace('.com', '.org'));
+    // }
     const flags = (new URLSearchParams(location.search).get('flags') || '').split(',');
     document.body.dataset.flags = flags.join(' ');
   });
 </script>
 
 <svelte:head>
-  <title>Creatorsgarten</title>
+  <title>Cunnygarten</title>
 </svelte:head>
 
 <Navbar />

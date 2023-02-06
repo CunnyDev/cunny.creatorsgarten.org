@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Events | Creatorsgarten</title>
+  <title>Events | Cunnygarten</title>
 </svelte:head>
 
 <div class="cg-container">
@@ -29,7 +29,7 @@
 
 <style>
   h1 {
-    @apply text-3xl lg:text-4xl leading-tight;
+    @apply text-3xl leading-tight lg:text-4xl;
     font-family: 'Playfair Display', 'Inter', 'Anuphan', system-ui, -apple-system,
       BlinkMacSystemFont, 'Segoe UI', Roboto;
   }

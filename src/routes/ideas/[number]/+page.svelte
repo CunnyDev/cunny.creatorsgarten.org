@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <title>Event Idea: {data.idea.title} | Creatorsgarten</title>
+  <title>Event Idea: {data.idea.title} | Cunnygarten</title>
 </svelte:head>
 
 <div class="cg-container min-h-[80vh]">

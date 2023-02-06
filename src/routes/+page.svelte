@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Creatorsgarten</title>
+  <title>Cunnygarten</title>
 </svelte:head>
 
 <div class="cg-large-container flex flex-col gap-6 lg:gap-10 my-4">
@@ -81,10 +81,10 @@
   </section>
 
   <section class="grid gap-4 my-2 mx-3 md:mx-10 md:my-4">
-    <h1>Connecting creators, making things</h1>
+    <h1>Connecting ภัยสังคม, making things</h1>
     <h2>
-      Creatorsgarten is a collective of creators. We strive to bring people together and create
-      meaningful projects. We are committed to promoting a creative culture and to help creators
+      Cunnygarten is a collective of ภัยสังคม. We strive to bring people together and create
+      meaningful projects. We are committed to promoting a creative culture and to help ภัยสังคม
       cultivate ideas and expand their frontier of perception.
     </h2>
   </section>
@@ -177,7 +177,7 @@
     </div>
     <h3 class="w-full md:w-11/12 lg:w-5/6 lg:text-lg mb-2">
       As a collective with many initiatives, each with their own uniqueness, there has been separate
-      organization dedicated to each. Creatorsgarten serves to bring all our initiatives together.
+      organization dedicated to each. Cunnygarten serves to bring all our initiatives together.
     </h3>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       <ImageCard
